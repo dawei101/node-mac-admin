@@ -7,17 +7,16 @@
   "scripts": {
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean",
-    "lint": "clang-format --dry-run -Werror permissions.mm && prettier --check index.js",
-    "format": "clang-format -i permissions.mm && prettier --write index.js",
+    "lint": "clang-format --dry-run -Werror admin.mm && prettier --check index.js",
+    "format": "clang-format -i admin.mm && prettier --write index.js",
     "test": "./node_modules/.bin/mocha --reporter spec",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allnationconnect/node-mac-admin.git"
+    "url": "git+https://github.com/dawei101/node-mac-admin.git"
   },
   "keywords": [
-    "permissions",
     "macos",
     "node",
     "napi",
@@ -34,9 +33,9 @@
   "author": "David <anonymity@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allnationconnect/node-mac-admin/issues"
+    "url": "https://github.com/dawei101/node-mac-admin/issues"
   },
-  "homepage": "https://github.com/allnationconnect/node-mac-admin#readme",
+  "homepage": "https://github.com/dawei101/node-mac-admin#readme",
   "dependencies": {
     "bindings": "^1.5.0",
     "node-addon-api": "^3.0.2"

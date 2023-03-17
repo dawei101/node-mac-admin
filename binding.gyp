@@ -1,11 +1,11 @@
 {
   "targets": [{
-    "target_name": "permissions",
+    "target_name": "admin",
     "sources": [ ],
     "conditions": [
       ['OS=="mac"', {
         "sources": [
-          "permissions.mm"
+          "admin.mm"
         ],
       }]
     ],
