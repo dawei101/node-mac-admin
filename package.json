@@ -1,6 +1,6 @@
 {
   "name": "node-mac-admin",
-  "version": "2.3.0",
+  "version": "1.0.0",
   "description": "A native node module to get admin privilege on macOS",
   "main": "index.js",
   "types": "index.d.ts",
